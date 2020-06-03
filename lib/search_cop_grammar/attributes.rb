@@ -180,6 +180,8 @@ module SearchCopGrammar
 
     class Text < String; end
 
+    class Uuid < String; end
+    
     class WithoutMatches < Base
       def matches(value)
         eq value
